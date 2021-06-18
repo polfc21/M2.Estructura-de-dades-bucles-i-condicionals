@@ -17,9 +17,9 @@ public class Nivell3 {
 
     public static String escriureTemps(int hora, int minuts, int segons){
         String horaText, minutsText, segonsText;
-        horaText = Nivell3.escriureDigit(hora);
-        minutsText = Nivell3.escriureDigit(minuts);
-        segonsText = Nivell3.escriureDigit(segons);
+        horaText = escriureDigit(hora);
+        minutsText = escriureDigit(minuts);
+        segonsText = escriureDigit(segons);
         return horaText + ":" + minutsText + ":" + segonsText;
     }
 

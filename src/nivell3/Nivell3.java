@@ -5,9 +5,9 @@ public class Nivell3 {
     public static void main(String[] args)  {
         try {
             while (true){
-                System.out.println(Nivell3.escriureTemps(hour,minutes,seconds));
+                System.out.println(escriureTemps(hour,minutes,seconds));
                 seconds++;
-                Nivell3.controlarTemps();
+                controlarTemps();
                 Thread.sleep(1000);
             }
         } catch (Exception e){
